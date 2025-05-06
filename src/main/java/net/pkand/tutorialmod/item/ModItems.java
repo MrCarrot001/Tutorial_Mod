@@ -12,6 +12,7 @@ public class ModItems {
 
     public static final Item FUNGAL_STICK= registerItem("fungal_stick", new Item(new Item.Settings()));
     public static final Item PINK_MUSHROOM= registerItem("pink_mushroom", new Item(new Item.Settings()));
+    public static final Item PINK_MUSHROOM_STEW= registerItem("pink_mushroom_stew", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
@@ -26,6 +27,10 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries ->{
             entries.add(PINK_MUSHROOM);
+        });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries ->{
+            entries.add(PINK_MUSHROOM_STEW);
         });
     }
 }
