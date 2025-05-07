@@ -1,5 +1,8 @@
 {
   "item.tutorialmod.fungal_stick": "Fungal Stick",
   "item.tutorialmod.pink_mushroom": "Pink Mushroom",
-  "item.tutorialmod.pink_mushroom_stew": "Pink Mushroom Stew"
+  "item.tutorialmod.pink_mushroom_stew": "Pink Mushroom Stew",
+
+  "block.tutorialmod.pink_mushroom_block": "Pink Mushroom Block",
+  "block.tutorialmod.pink_mushroom_stem": "Pink Mushroom Stem"
 }
