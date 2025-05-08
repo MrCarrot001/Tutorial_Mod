@@ -21,7 +21,7 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASS).strength(2f).sounds(BlockSoundGroup.HONEY)));
 
     public static final Block PINK_MUSHROOM_STEM=registerBlock("pink_mushroom_stem",
-            new PillarBlock(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASS).strength(2f).sounds(BlockSoundGroup.WOOD)));
+            new PillarBlock(AbstractBlock.Settings.create().requiresTool().instrument(NoteBlockInstrument.BASS).strength(2f).sounds(BlockSoundGroup.WOOD)));
 
 
     private static Block registerBlock(String name, Block block) {

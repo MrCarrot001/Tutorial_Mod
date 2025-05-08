@@ -1,8 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "misc",
   "key": {
-    "M": "tutorialmod:pink_mushroom"
+    "M": {
+      "item": "tutorialmod:pink_mushroom"
+    }
   },
   "pattern": [
     "MM",
