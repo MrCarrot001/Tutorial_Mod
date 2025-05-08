@@ -18,7 +18,7 @@ import net.pkand.tutorialmod.TutorialMod;
 public class ModBlocks {
 
     public static final Block PINK_MUSHROOM_BLOCK=registerBlock("pink_mushroom_block",
-            new Block(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASS).strength(2f).sounds(BlockSoundGroup.HONEY)));
+            new Block(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASS).strength(0.2f).sounds(BlockSoundGroup.HONEY)));
 
     public static final Block PINK_MUSHROOM_STEM=registerBlock("pink_mushroom_stem",
             new PillarBlock(AbstractBlock.Settings.create().requiresTool().instrument(NoteBlockInstrument.BASS).strength(2f).sounds(BlockSoundGroup.WOOD)));
