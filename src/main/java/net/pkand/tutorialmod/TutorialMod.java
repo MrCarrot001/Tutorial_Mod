@@ -3,6 +3,7 @@ package net.pkand.tutorialmod;
 import net.fabricmc.api.ModInitializer;
 
 import net.pkand.tutorialmod.block.ModBlocks;
+import net.pkand.tutorialmod.item.ModItemGroups;
 import net.pkand.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +14,8 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerModItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
