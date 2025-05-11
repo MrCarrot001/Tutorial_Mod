@@ -18,10 +18,16 @@ import net.pkand.tutorialmod.TutorialMod;
 public class ModBlocks {
 
     public static final Block PINK_MUSHROOM_BLOCK=registerBlock("pink_mushroom_block",
-            new Block(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASS).strength(0.2f).sounds(BlockSoundGroup.HONEY)));
+            new Block(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASS)
+                    .strength(0.2f).sounds(BlockSoundGroup.HONEY)));
 
     public static final Block PINK_MUSHROOM_STEM=registerBlock("pink_mushroom_stem",
-            new PillarBlock(AbstractBlock.Settings.create().requiresTool().instrument(NoteBlockInstrument.BASS).strength(2f).sounds(BlockSoundGroup.WOOD)));
+            new PillarBlock(AbstractBlock.Settings.create().requiresTool().instrument(NoteBlockInstrument.BASS)
+                    .strength(2f).sounds(BlockSoundGroup.WOOD).burnable()));
+
+    public static final Block PINK_MUSHROOM_PLANKS=registerBlock("pink_mushroom_planks",
+            new Block(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASS)
+                    .strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
 
 
     private static Block registerBlock(String name, Block block) {
@@ -39,7 +45,8 @@ public class ModBlocks {
         TutorialMod.LOGGER.info("Registering Mod Blocks for " + TutorialMod.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries ->{
-
+            entries.add(PINK_MUSHROOM_PLANKS);
+            entries.add(PINK_MUSHROOM_STEM);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries ->{
             entries.add(PINK_MUSHROOM_BLOCK);

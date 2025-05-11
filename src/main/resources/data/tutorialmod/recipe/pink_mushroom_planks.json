@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {"item": "tutorialmod:pink_mushroom_stem"}
+  ],
+  "result": {
+    "count": 4,
+    "id": "tutorialmod:pink_mushroom_planks"
+  }
+}

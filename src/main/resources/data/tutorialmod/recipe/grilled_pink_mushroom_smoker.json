@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": [
+    {"item": "tutorialmod:pink_mushroom"}
+  ],
+  "cookingtime": 100,
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:grilled_pink_mushroom"
+  },
+  "experience": 1.5
+}

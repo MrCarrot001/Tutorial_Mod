@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": [
+    {"item": "tutorialmod:pink_mushroom"}
+  ],
+  "cookingtime": 200,
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:grilled_pink_mushroom"
+  },
+  "experience": 1.0
+}

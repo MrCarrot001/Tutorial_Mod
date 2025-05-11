@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "tutorialmod:pink_mushroom_stem",
-    "tutorialmod:pink_mushroom_block"
+    "tutorialmod:pink_mushroom_block",
+    "tutorialmod:pink_mushroom_planks"
   ]
 }

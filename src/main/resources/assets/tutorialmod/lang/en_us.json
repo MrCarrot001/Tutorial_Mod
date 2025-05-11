@@ -2,9 +2,11 @@
   "item.tutorialmod.fungal_stick": "Fungal Stick",
   "item.tutorialmod.pink_mushroom": "Pink Mushroom",
   "item.tutorialmod.pink_mushroom_stew": "Pink Mushroom Stew",
+  "item.tutorialmod.grilled_pink_mushroom": "Grilled Pink Mushroom",
 
   "block.tutorialmod.pink_mushroom_block": "Pink Mushroom Block",
   "block.tutorialmod.pink_mushroom_stem": "Pink Mushroom Stem",
+  "block.tutorialmod.pink_mushroom_planks": "Pink Mushroom Planks",
 
   "item_groups.tutorialmod.fungal_blocks": "Fungal Blocks",
   "item_groups.tutorialmod.fungal_items": "Fungal Items"

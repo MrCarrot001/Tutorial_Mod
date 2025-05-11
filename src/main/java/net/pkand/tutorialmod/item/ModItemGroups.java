@@ -18,6 +18,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.PINK_MUSHROOM_BLOCK);
                         entries.add(ModBlocks.PINK_MUSHROOM_STEM);
+                        entries.add(ModBlocks.PINK_MUSHROOM_PLANKS);
                     }).build());
 
     public static final ItemGroup FUNGAL_ITEMS_ITEMS_GROUP= Registry.register(Registries.ITEM_GROUP,
@@ -28,6 +29,7 @@ public class ModItemGroups {
                         entries.add(ModItems.PINK_MUSHROOM);
                         entries.add(ModItems.PINK_MUSHROOM_STEW);
                         entries.add(ModItems.FUNGAL_STICK);
+                        entries.add(ModItems.GRILLED_PINK_MUSHROOM);
                     }).build());
 
 
