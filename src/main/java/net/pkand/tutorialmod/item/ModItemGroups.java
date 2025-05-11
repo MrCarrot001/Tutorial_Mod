@@ -30,6 +30,7 @@ public class ModItemGroups {
                         entries.add(ModItems.PINK_MUSHROOM_STEW);
                         entries.add(ModItems.FUNGAL_STICK);
                         entries.add(ModItems.GRILLED_PINK_MUSHROOM);
+                        entries.add(ModItems.POISONED_STICK);
                     }).build());
 
 
